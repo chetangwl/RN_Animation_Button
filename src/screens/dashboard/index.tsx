@@ -1,7 +1,7 @@
-import React, {useEffect, useRef, useState} from 'react';
-import {Animated, Easing, Image} from 'react-native';
-import PngImages from '../../../assets/images/pngImages';
-import {JOINED_TEXT, TITLE} from '../../constants';
+import React, { useEffect, useRef, useState } from "react";
+import { Animated, Easing, Image } from "react-native";
+import PngImages from "../../../assets/images/pngImages";
+import { JOINED_TEXT, TITLE } from "../../constants";
 import {
   ButtonAnimatedView,
   ButtonText,
@@ -10,7 +10,7 @@ import {
   TextAnimatedView,
   TouchableView,
   Wrapper,
-} from './styled';
+} from "./styled";
 
 const Dashboard = () => {
   const [isJoin, setIsJoin] = useState<boolean>(false);
@@ -26,13 +26,13 @@ const Dashboard = () => {
     Animated.sequence([
       Animated.timing(fadeText, {
         toValue: 1,
-        duration: 3000,
+        duration: 4000,
         easing: Easing.ease,
         useNativeDriver: true,
       }),
       Animated.timing(fadeButton, {
-        toValue: 0,
-        duration: 4000,
+        toValue: 0.8,
+        duration: 2000,
         easing: Easing.ease,
         useNativeDriver: true,
       }),
@@ -47,7 +47,7 @@ const Dashboard = () => {
     setTimeout(() => {
       setIsJoined(true);
       setIsJoin(false);
-    }, 3000);
+    }, 2000);
   };
 
   return (
@@ -58,7 +58,7 @@ const Dashboard = () => {
           <TouchableView onPress={() => triggerClick()}>
             {!isJoin && <Image source={PngImages.joinButton} />}
             {isJoin && (
-              <ButtonAnimatedView style={{opacity: fadeButton}}>
+              <ButtonAnimatedView style={{ opacity: fadeButton }}>
                 <Image source={PngImages.checkButton} />
               </ButtonAnimatedView>
             )}
@@ -68,7 +68,8 @@ const Dashboard = () => {
           <TextAnimatedView
             style={{
               opacity: fadeText,
-            }}>
+            }}
+          >
             <ButtonText>{JOINED_TEXT}</ButtonText>
           </TextAnimatedView>
         )}

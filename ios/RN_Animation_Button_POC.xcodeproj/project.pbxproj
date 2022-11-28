@@ -44,7 +44,7 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-RN_Animation_Button_POC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RN_Animation_Button_POC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RN_Animation_Button_POC/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RN_Animation_Button_POC-RN_Animation_Button_POCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_Animation_Button_POC-RN_Animation_Button_POCTests.release.xcconfig"; path = "Target Support Files/Pods-RN_Animation_Button_POC-RN_Animation_Button_POCTests/Pods-RN_Animation_Button_POC-RN_Animation_Button_POCTests.release.xcconfig"; sourceTree = "<group>"; };
-		8C07D1E58D3F4E75B9C791EF /* montserrat.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = montserrat.ttf; path = ../assets/fonts/montserrat.ttf; sourceTree = "<group>"; };
+		8C07D1E58D3F4E75B9C791EF /* montserrat.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = montserrat.ttf; path = ../assets/fonts/montserrat.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -121,7 +121,6 @@
 				8C07D1E58D3F4E75B9C791EF /* montserrat.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		83CBB9F61A601CBA00E9B192 = {
@@ -501,6 +500,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RN_Animation_Button_POC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Button Animation";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,6 +526,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = RN_Animation_Button_POC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Button Animation";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
