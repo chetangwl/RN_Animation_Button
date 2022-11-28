@@ -39,6 +39,7 @@ export const ButtonText = styled.Text`
   text-align: center;
   color: ${textSecondary};
   font-weight: 600;
+  margin-top: ${rpx(10)}px;
 `;
 
 export const ButtonAnimatedView = styled(Animated.View)`
@@ -48,5 +49,6 @@ export const ButtonAnimatedView = styled(Animated.View)`
 
 export const TextAnimatedView = styled(Animated.View)`
   align-self: center;
-  margin-top: ${rpx(60)}px;
+  height: ${rpx(50)}px;
+  margin-top: ${rpx(50)}px;
 `;
