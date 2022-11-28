@@ -13,3 +13,9 @@ Step 4: Run "yarn start" to start the react-native server.
 Step 5: Run "npx react-native run-ios" to run iOS application.
 
 Step 6: Run "npx react-native run-android" to run android application.
+
+
+# Demo
+
+https://user-images.githubusercontent.com/12622822/204297815-5e8f9f6b-0a0e-4ce1-b744-5775bf3d1ba4.mp4
+
