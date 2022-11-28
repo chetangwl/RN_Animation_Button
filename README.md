@@ -1,4 +1,4 @@
-# RN-Animation-Button-POC
+# React Native Animation Button POC
 
 # How to run this project
 
