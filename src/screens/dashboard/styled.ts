@@ -47,7 +47,6 @@ export const ButtonAnimatedView = styled(Animated.View)`
 `;
 
 export const TextAnimatedView = styled(Animated.View)`
-  height: ${rpx(50)}px;
   align-self: center;
   margin-top: ${rpx(60)}px;
 `;
