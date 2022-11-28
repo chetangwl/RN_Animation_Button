@@ -1,8 +1,8 @@
-import {Dimensions, PixelRatio} from 'react-native';
+import { Dimensions, PixelRatio } from "react-native";
 
-export const screenWidth = Dimensions.get('window').width;
+export const screenWidth = Dimensions.get("window").width;
 
-export const screenHeight = Dimensions.get('window').height;
+export const screenHeight = Dimensions.get("window").height;
 
 // default reference dimensions (iPad)
 export const iPadRefDimensions = {
@@ -18,8 +18,8 @@ export const defaultDimensions = {
   height: 812,
 };
 
-const widthRatio = screenWidth / iPadRefDimensions.width;
-const heightRatio = screenHeight / iPadRefDimensions.height;
+const widthRatio = screenWidth / defaultDimensions.width;
+const heightRatio = screenHeight / defaultDimensions.height;
 const meanRatio = (widthRatio + heightRatio) / 2;
 
 // This is used to make the scale factor smaller (avoid having very big text on
@@ -46,5 +46,5 @@ export const rpx = (pixels: number) => {
 
 // desc: define all font family used in project
 export const FontFamily = {
-  montserratRegular: 'Montserrat-Regular',
+  montserratRegular: "Montserrat-Regular",
 };
