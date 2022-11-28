@@ -32,7 +32,7 @@ const Dashboard = () => {
       }),
       Animated.timing(fadeButton, {
         toValue: 0,
-        duration: 2000,
+        duration: 4000,
         easing: Easing.ease,
         useNativeDriver: true,
       }),
